@@ -8,9 +8,17 @@ import App from './App.jsx'
     <h1>custom app!</h1>
     </div>
   )
+  const anotherUser ="chai aur react"
+
  }
+ const reactElement= React.createElement(
+  'a',
+  {href:'https://google.com',target:'_blank'},
+  'click me to visit google',
+  anotherUser
+ )
 ReactDOM.createRoot(document.getElementById('root')).render(
   
-    <MyAppApp />
+    <App />
  
 )
